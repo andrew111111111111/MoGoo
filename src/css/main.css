@@ -1,0 +1,95 @@
+:root {
+  --color-text-nav: #95e1d3;
+  --color-text-title: #333333;
+  --color-text-primery: #b6b6b6;
+  --color-text-hover: #f38181;
+  --color-text-address: #000000;
+  --color-text-button: #ffffff;
+
+  --font-primery: "Roboto";
+  --font-secendary: "Montserrat";
+  --font-title: "Kaushan Script";
+}
+body {
+  font-family: var(--font-primery);
+  color: var(--color-text-primery);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: var(--font-secendary);
+  color: var(--color-text-nav);
+  text-decoration-line: none;
+}
+.nav-link {
+  font-family: var(--font-secendary);
+  color: var(--color-text-nav);
+  text-decoration-line: none;
+  font-size: 14px;
+  line-height: 1.21;
+}
+.nav-link:hover {
+  color: var(--color-text-hover);
+  text-decoration-line: underline;
+}
+.hero-title-part {
+  font-family: var(--font-title);
+  font-size: 24px;
+  line-height: 1.45;
+  color: var(--color-text-title);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: all-small-caps;
+  color: var(--color-text-title);
+}
+
+.advantages-title {
+  font-variant: small-caps;
+  line-height: 1.21;
+  font-family: var(--font-secendary);
+  color: var(--color-text-title);
+}
+.team-title-part {
+  font-family: var(--font-title);
+  font-size: 24px;
+  line-height: 1.45;
+  color: var(--color-text-title);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: all-small-caps;
+  color: var(--color-text-title);
+}
+.team-about {
+  text-align: center;
+  line-height: 1.2;
+  font-size: 15px;
+}
+.address-text {
+  text-align: center;
+  color: var(--color-text-title);
+}
+.address-text-part {
+  color: var(--color-text-hover);
+}
+.address-button {
+  font-weight: 700;
+  font-size: 14px;
+  font-variant: all-small-caps;
+  text-align: center;
+  background-color: var(--color-text-nav);
+  color: var(--color-text-button);
+  border: 0px;
+}
+.address-input {
+  stroke-width: 1px;
+  line-height: 1.14;
+  text-align: center;
+}
